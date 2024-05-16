@@ -14,7 +14,7 @@ import jobData from './dummyData';
 
  
 export default () => {
-  //const [ jobs, setJobs]= useState([]);
+  
   const [newJobModal, setNewJobModal] = useState(false);
  
    useEffect(() =>{

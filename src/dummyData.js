@@ -18,7 +18,7 @@ export default [
     location: "Office",
     companyName: "Yahoo",
     companyUrl: "Yahoo.com",
-    skills: ["Angular", "Node.js"],
+    skills: ["Angular", "Node.js","Database"],
     link: "https://yahoo.com/jobs",
   },
   {
