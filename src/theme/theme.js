@@ -1,7 +1,8 @@
 import { createTheme } from "@material-ui/core";
 
-const primary = "#00239c";
+const primary = "#04064a";
 const secondary = "#232425";
+
 //#D1B000
 export default createTheme({
   typography: {
@@ -12,7 +13,7 @@ export default createTheme({
       main: primary,
     },
     secondary: {
-      main: secondary,
+      main: primary,
     },
   },
   overrides: {

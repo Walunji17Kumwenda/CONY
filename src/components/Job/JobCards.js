@@ -11,7 +11,7 @@ const usestyles = makeStyles((theme) =>({
         transition: '.3s',
         "&:hover": {
             boxShadow: "0px 5px 25px rgba(0, 0, 0, 0.1)",
-            borderLeft: "6px solid #4D64E4",
+            borderLeft: "6px solid #04064a",
         },
     },
     companyName: {
@@ -21,7 +21,8 @@ const usestyles = makeStyles((theme) =>({
          borderRadius: "5px",
          display: "inline-block",
          fontWeight: 600,
-         color: "#fff",
+         
+         color: "#f6ae12",
     },
     skillchip: {
         margin: theme.spacing(0.5),
@@ -30,7 +31,7 @@ const usestyles = makeStyles((theme) =>({
         borderRadius: "5px",
          fontWeight: 600,
         backgroundColor: theme.palette.secondary.main,
-        color: "#fff",
+        color: "#f6ae12",
     },
 }));
 

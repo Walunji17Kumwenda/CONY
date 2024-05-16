@@ -21,7 +21,7 @@ wrapper:{
 export default props => {
     const classes = useStyles()
     return (
-        <Box p={2} mt={-5}  mb={2} className={classes.wrapper}>
+        <Box p={2} mt={-5}  mb={2} className={classes.wrapper} color="primary">
             <Select disableUnderline variant="filled" defaultValue="Full time" >
                 <MenuItem value="Full time">Full time</MenuItem>
                 <MenuItem value="Part time" >Part time</MenuItem>
@@ -32,7 +32,7 @@ export default props => {
                 <MenuItem value="In-office" >In-office</MenuItem>
            
                  </Select>
-                 <Button variant ="contained" color="primary" disableElevation>
+                 <Button variant ="contained" color="primary" text-color="#f6ae12" disableElevation>
                 Search
                 </Button>
         </Box>
