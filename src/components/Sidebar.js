@@ -1,4 +1,5 @@
  import React from "react";
+ import {Link} from "react-router-dom";
  import { BiNotification,BiHome} from "react-icons/bi";
  import { FaBell,FaSearch,FaUserCircle,FaCog,FaInfoCircle,FaList,FaQuestionCircle} from "react-icons/fa";
 
@@ -30,7 +31,7 @@
             </a>
         </div>
         <div className="flex justify-center mt-8">
-            <button className="text-orange-500  bg-blue-950 px-5 py-2 rounded-xl font-bold">Log out</button>
+            <Link to="/"><button className="text-orange-500  bg-blue-950 px-5 py-2 rounded-xl font-bold">Log out</button></Link>
         </div>
         
       </div> 

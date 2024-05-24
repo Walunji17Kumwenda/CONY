@@ -4,7 +4,7 @@ import { FaBell,FaUserCircle } from "react-icons/fa";
 
 function Content(){
     return(
-        <>
+        <div className="flex">
         <Sidebar/>
         <div className="w-full bg-[#ffffff]">
             <div className="flex w-full bg-[#ffffff]">
@@ -28,7 +28,7 @@ function Content(){
                 </div>
             </div>
        </div>
-       </>
+       </div>
     );
 }
 export default Content;
