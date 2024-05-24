@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-
+import {Link} from "react-router-dom";
 function Content(){
     return(
         <>
@@ -16,7 +16,7 @@ function Content(){
         </div>
        </div>
         <div className="flex mt-8  items-center justify-center">
-            <button className="px-4 py-3 bg-blue-950 text-orange-500 font-bold rounded-full hover:bg-blue-900">Lets get started</button>
+           <Link to="/register"> <button className="px-4 py-3 bg-blue-950 text-orange-500 font-bold rounded-full hover:bg-blue-900">Lets get started</button></Link>
         </div>
 
         <div className="mt-3 p-3 flex justify-center items-center text-center rounded-xl">

@@ -1,7 +1,7 @@
  import React from "react";
  import {Link} from "react-router-dom";
  import { BiNotification,BiHome} from "react-icons/bi";
- import { FaBell,FaSearch,FaUserCircle,FaCog,FaInfoCircle,FaList,FaQuestionCircle} from "react-icons/fa";
+ import { FaBell,FaPen,FaSearch,FaUserCircle,FaCog,FaInfoCircle,FaList,FaQuestionCircle} from "react-icons/fa";
 
  function Sidebar(){
     return(
@@ -16,6 +16,9 @@
             </a>
             <a href="#" className="flex gap-3 hover:bg-gray-400 mt-4 mb-4 rounded-[4px]">
                 <FaUserCircle/> Profile
+            </a>
+            <a href="#" className="flex gap-3 hover:bg-gray-400 mt-4 mb-4 rounded-[4px]">
+                <FaPen/> Activity      
             </a>
             <a href="#" className="flex gap-3 hover:bg-gray-400 mt-4 mb-4 rounded-[4px]">
                 <FaBell/> Notification      

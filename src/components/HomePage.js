@@ -20,12 +20,10 @@ function Content(){
             </div>
             <div className="mt-8 gap-4 flex items-center">
                 <div className="ml-3 mt-1 rounded-xl h-screen w-full border-2 bg-gray-100 ">
-                    <h3 className="mt-3 text-center text-blue-950 font-semibold">Recent posted jobs</h3>
+                    <h3 className="mt-3 text-center text-blue-950 font-semibold">Available jobs</h3>
 
                 </div>
-                <div className="h-screen w-full rounded-xl border-2 bg-gray-100">
-                    <h3 className="mt-3 text-center text-blue-950 font-semibold">Recent activity</h3>
-                </div>
+    
             </div>
        </div>
        </div>

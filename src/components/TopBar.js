@@ -13,8 +13,7 @@ function TopBar() {
            </ul>
 
              <div className="flex gap-5">
-               <Link to="/login"> <button className="py-1 px-2 bg-blue-950 text-orange-500 font-bold rounded-xl hover:bg-blue-900">Log in</button></Link>
-                <button className="py-1 px-2 bg-blue-950 text-orange-500 font-bold rounded-xl hover:bg-blue-900">Sign in</button>
+                 <Link to="/login"><button className="py-1 px-2 bg-blue-950 text-orange-500 font-bold rounded-xl hover:bg-blue-900">Log in</button></Link>
             </div>
            
            
