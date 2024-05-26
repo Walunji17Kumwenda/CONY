@@ -4,7 +4,7 @@ import Content from "./Content";
 
 function LandingPage(){
     return(
-        <div class="bg-no-repeat bg-cover bg-center bg-[url('./assets/Signature.jpg')]">
+        <div class="bg-gray-200">
             <TopBar/>  
             <div className="mt-8">
                 <Content/>
