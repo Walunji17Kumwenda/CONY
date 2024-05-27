@@ -1,6 +1,6 @@
 import { useState } from "react";
 import JobCard from "../components/JobCard";
-import ViewDetails from "../components/ViewDetails";
+
 
 let job = [//define a list of jobs
     {image: <img src="/netflix.jpeg" alt ="netflix pic" className="rounded-full border-2 border-gray-200"/> ,title: "Software Engineer", company: "NETFLIX", location: "Mountain View, CA",description: "Lead a team of engineers to develop and maintain software solutions for a global client.", requirements: ['javaScript ', ' css ', ' java ']},
@@ -14,7 +14,7 @@ let job = [//define a list of jobs
 
 
 //job matching component that filters and displays matching jobs based on user requirements
-const JobMatchingAlgorithm = ({userRequirements}) => {
+const JobMatchingAlgorithm = ({ userRequirements = ['java ', 'Spring', ' MySQL', ' Android', ' iOS'] }) => {
     const [filteredJobs, setFilteredJobs] = useState([]);
    
     // state to stroe the filtered jobs

@@ -5,7 +5,7 @@ const Notificationspage = () => {
   return(
         <div className="flex flex-col m-2.5 space-y-4 w-full ">
           <div className=" py-1 px-1 flex flex-row  bg-slate-300 rounded-xl"> 
-            <div><NavLink to="/"> <img className="flex mx-auto h-12 justify-start" src="/nav_arrow_left_icon.png" alt="Back" /> </NavLink></div> 
+            <div><NavLink to="/homepg"> <img className="flex mx-auto h-12 justify-start" src="/nav_arrow_left_icon.png" alt="Back" /> </NavLink></div> 
             <div className="mx-20 flex font-extrabold text-2xl text-blue-950 h-12 ">Notifications</div>
           </div>
           

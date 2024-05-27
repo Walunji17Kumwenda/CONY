@@ -2,6 +2,7 @@
 
 import React  from "react";
 import {FaArrowLeft} from "react-icons/fa";
+import {NavLink} from "react-router-dom";
 
 function Qualification() {
 
@@ -24,7 +25,7 @@ function Qualification() {
             <input type="number" placeholder="years of experience" className="outline-none p-2 w-[300px] rounded-xl border-2 border-gray-300 "/>
           </div>
           <div className="mt-5 flex flex-flow items-center justify-center ">
-            <button type="submit" className="text-orange-500 font-bold rounded-xl bg-blue-950 py-2 px-8">Submit</button>
+           <NavLink to="/notifications"> <button type="submit" className="text-orange-500 font-bold rounded-xl bg-blue-950 py-2 px-8">Submit</button></NavLink>
           </div>
 
         </form>

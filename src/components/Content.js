@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./Card";
-import {Link} from "react-router-dom";
+//import Card from "./Card";
+import {NavLink} from "react-router-dom";
 function Content(){
     return(
         <>
@@ -16,7 +16,7 @@ function Content(){
         </div>
        </div>
         <div className="flex mt-8  items-center justify-center">
-           <Link to="/register"> <button className="px-4 py-3 bg-blue-950 text-orange-500 font-bold rounded-full hover:bg-blue-900">Lets get started</button></Link>
+           <NavLink to="/register"> <button className="px-4 py-3 bg-blue-950 text-orange-500 font-bold rounded-full hover:bg-blue-900">Lets get started</button></NavLink>
         </div>
 
         <div className="mt-3 p-3 flex justify-center items-center text-center rounded-xl">
@@ -24,10 +24,7 @@ function Content(){
              undergraduates and graduates to find their respective field for<br/> job or interniship in order to pursue their career im different field </p>
         </div>
         <h4 className="flex mt-5  text-2xl font-bold text-center justify-center text-blue-950">Develop your career in</h4>
-        <div className="p-3 gap-3 flex items-center">
-            <Card/>
-        </div>
-
+     
         <footer className="">
         <div className="mt-8 flex text-blue-950 justify-center justify-around bg-gray-400">
             <div>

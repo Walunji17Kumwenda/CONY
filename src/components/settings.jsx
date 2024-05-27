@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowLeft } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Settings = () => {
     return(
@@ -58,7 +59,7 @@ const Settings = () => {
              <p className="text-red-500 text-center underline" > Delete account</p>
         </div>
         <div className="mt-5 flex flex-flow items-center justify-center">
-            <button className="bg-blue-950 text-orange-500 text-center font-bold rounded-xl py-2 px-6 text-[20px] hover:bg-blue-900">Update</button>
+           <NavLink to="/login"> <button className="bg-blue-950 text-orange-500 text-center font-bold rounded-xl py-2 px-6 text-[20px] hover:bg-blue-900">Update</button></NavLink>
         </div>
             </div>
         

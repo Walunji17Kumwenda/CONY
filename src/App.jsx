@@ -1,10 +1,12 @@
 import React from 'react';
-import JobList from './pages/JobList';
-import 'tailwindcss/tailwind.css';
+import LandingPage from './components/LandingPage';
+import JobMatchingAlgorithm from './components/JobMatchingAlgorithm';
+
 export default function App() {
   return (
     <div className="min-h-screen bg-gray-100">
-      <JobList />
+      <LandingPage/>
+     
     </div>
   );
 }

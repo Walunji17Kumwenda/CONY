@@ -6,7 +6,7 @@ const CompanyNotifications =() => {
   return (
     <div className="flex flex-col m-2.5 bg-slate-400 space-y-4 w-full ">
       <div className="flex flex-row h-20 w-full bg-slate-900 items-start justify-between "><h1><Headerbar2/></h1></div>
-      <div className="flex w-4/6 justify-center "><Searchbar /></div>
+
        <p className="px-11  ">Received Applications</p>
       <div class="py-8 px-8 w-11/12 h-24 mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
     <img class="block mx-auto h-20 rounded-full sm:mx-0 sm:shrink-0" src="/Moana.jpg" alt="Moana" />

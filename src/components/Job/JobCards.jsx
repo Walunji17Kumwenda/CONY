@@ -1,6 +1,6 @@
 import React from "react";
 
-const JobCard = (props) => {
+const JobCards = (props) => {
   const { title, companyName, skills, postedOn, type, location } = props;
 
   return (
@@ -35,4 +35,4 @@ const JobCard = (props) => {
   );
 };
 
-export default JobCard;
+export default JobCards;

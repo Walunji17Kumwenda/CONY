@@ -1,5 +1,7 @@
 import { React,useState } from "react";
 import { useForm } from "react-hook-form";
+import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Register(){
     const {register, handleSubmit,watch, formState:{errors}} = useForm();
@@ -12,6 +14,15 @@ function Register(){
     };
     const password = watch('password');
     const confirmPassword = watch('confirmPassword');
+    const  navigate = useNavigate();
+    
+    const handleClick =()=>{
+        if (userType === 'company') {
+            navigate('/companyprofile');
+        }else if(userType === 'individual'){
+            navigate('/homepg');
+        }
+    };
    
 
     return(
@@ -96,7 +107,7 @@ function Register(){
                         </>
                     )}
                 <div className=" mt-6  m-[30px 0]">
-                <button type="submit" className="hover:bg-blue-900 transtion-all duration-500  bg-blue-950 text-orange-500 w-full mt-8 p-2 rounded-xl font-bold ">Register</button>
+                <button type="submit" onClick={handleClick} className="hover:bg-blue-900 transtion-all duration-500  bg-blue-950 text-orange-500 w-full mt-8 p-2 rounded-xl font-bold ">Register</button>
                 </div>
                 </form>
             </div>
