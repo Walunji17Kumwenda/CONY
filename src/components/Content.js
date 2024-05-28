@@ -26,13 +26,13 @@ function Content(){
         <h4 className="flex mt-5  text-2xl font-bold text-center justify-center text-blue-950">Develop your career in</h4>
      
         <footer className="">
-        <div className="mt-8 flex text-blue-950 justify-center justify-around bg-gray-400">
+        <div className="mt-8 flex text-blue-950  justify-around bg-gray-400">
             <div>
             <h2>&copy;2024 CONY </h2>
             <h2 className="font-bold ">Legal</h2>
-                <li className="list-none"><a href="#">Claim</a></li>
-                <li className="list-none"><a href="#">Privacy</a></li>
-                <li className="list-none"><a href="#">Terms</a></li>
+                <li className="list-none"><a href="/">Claim</a></li>
+                <li className="list-none"><a href="/">Privacy</a></li>
+                <li className="list-none"><a href="/">Terms</a></li>
             </div> 
         </div>
         </footer>

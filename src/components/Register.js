@@ -1,6 +1,5 @@
 import { React,useState } from "react";
 import { useForm } from "react-hook-form";
-import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 function Register(){

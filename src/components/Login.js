@@ -9,6 +9,7 @@ function Login(){
         console.log(data);
     }; 
     
+    
 
     return(
         <div className="flex h-screen flex-flow items-center justify-center">
@@ -30,13 +31,13 @@ function Login(){
                 
             <div className="flex items-center justify-between gap-4 mt-4 ">
                 <label><input type="checkbox"/> Remember me</label>
-                <a href="#">forgot password?</a>
+                <a href="/">forgot password?</a>
             </div>
             <div className="flex items-center justify-center mt-4">
             <NavLink to = "/homepg">  <button type="submit"  className="bg-blue-950 hover:bg-blue-900 transtion-all duration-500 text-orange-500 py-2 px-10 w-full  rounded-xl font-bold">Sign in</button></NavLink>
             </div>
             <div className="flex items-center justify-center mt-4 font-semibold">
-                <p>Dont have an account? <a href="#">Sign up</a> </p>
+                <p>Dont have an account? <a href="/">Sign up</a> </p>
             </div>
 
         </form>
