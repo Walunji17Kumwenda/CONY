@@ -1,8 +1,6 @@
  import React from "react";
-import { BiHome} from "react-icons/bi";
- import { FaBell,FaPen,FaUserCircle,FaCog,FaList,FaQuestionCircle} from "react-icons/fa";
+ import { FaBell,FaUserCircle,FaCog,FaList} from "react-icons/fa";
  import { NavLink } from "react-router-dom";
-import JobMatchingAlgorithm from "./Algorithm/JobMatchingAlgorithm";
 
  function Sidebar(){
     return(
@@ -13,7 +11,7 @@ import JobMatchingAlgorithm from "./Algorithm/JobMatchingAlgorithm";
         </div>
         <div className="flex-direction-colum  rounded-xl text-blue-950 items-center ml-3 text-lg">
             
-            <a href="#" className="flex gap-3 hover:bg-gray-400 mt-4 mb-4 rounded-[4px]">
+            <a href="/" className="flex gap-3 hover:bg-gray-400 mt-4 mb-4 rounded-[4px]">
                 <FaUserCircle/> Profile
             </a>
             
