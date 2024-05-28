@@ -1,6 +1,5 @@
 import React from 'react'
 import Headerbar2 from './Headerbar2';
-import Searchbar from './Searchbar'
 
 const CompanyNotifications =() => {
   return (

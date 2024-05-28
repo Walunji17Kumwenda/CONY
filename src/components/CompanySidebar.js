@@ -10,7 +10,7 @@ function CompanySidebar(){
            <h2>CONY</h2>
        </div>
        <div className="flex-direction-colum  rounded-xl text-blue-950 items-center ml-3 text-lg">
-           <a href="#" className="flex gap-3 hover:bg-gray-400 mt-4 mb-4 rounded-[4px]">
+           <a href="/" className="flex gap-3 hover:bg-gray-400 mt-4 mb-4 rounded-[4px]">
                <FaUserCircle/> Profile
            </a>
            <NavLink to="/companynotifications"className="flex gap-3 hover:bg-gray-400 mt-4 mb-4 rounded-[4px]">

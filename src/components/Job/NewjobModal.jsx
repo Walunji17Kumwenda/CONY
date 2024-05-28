@@ -1,7 +1,8 @@
 import React from "react";
 import 'tailwindcss/tailwind.css';
 
-export default (props) => {
+export default function Newjobmodal(){
+
   const skills = [
     "Javascript",
     "React",

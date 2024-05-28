@@ -32,9 +32,9 @@ function Content(){
             <div>
             <h2>&copy;2024 CONY </h2>
             <h2 className="font-bold ">Legal</h2>
-                <li className="list-none"><a href="#">Claim</a></li>
-                <li className="list-none"><a href="#">Privacy</a></li>
-                <li className="list-none"><a href="#">Terms</a></li>
+                <li className="list-none"><a href="/">Claim</a></li>
+                <li className="list-none"><a href="/">Privacy</a></li>
+                <li className="list-none"><a href="/">Terms</a></li>
             </div> 
         </div>
         </footer>
