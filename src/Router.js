@@ -5,7 +5,6 @@ import FeedbackForm from "./components/FeedbackForm";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import LandingPage from "./components/LandingPage";
-import Homepage from  "./components/Homepage";
 import { createBrowserRouter } from "react-router-dom";
 import CompanySidebar from "./components/CompanySidebar";
 import CompanyProfile from "./components/CompanyProfile";
@@ -71,7 +70,6 @@ const router = createBrowserRouter([
     ,
     {
         path: "/homepg",
-        element: <Homepage/>,
     }
     ,
     {
