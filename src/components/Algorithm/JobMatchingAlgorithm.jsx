@@ -25,7 +25,7 @@ const JobMatchingAlgorithm = ({ userRequirements = ['java ', 'Spring', ' MySQL',
         //update the filtered jobs state
 
         setFilteredJobs(filtered);
-      }, []);
+      }, [ userRequirements ]);
 
     
 
