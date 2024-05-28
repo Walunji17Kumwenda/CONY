@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaUserCircle,FaArrowLeft } from "react-icons/fa";
 import {useForm} from "react-hook-form";
+import { NavLink } from 'react-router-dom';
 
 function CompanyProfile() {
     const {register,handleSubmit} = useForm();
@@ -35,7 +36,7 @@ function CompanyProfile() {
                     <input type="text area" placeholder="companys vision" name="companyVision" {...register("companyVision",{required: true,})} className="h-[100px] w-[300px] rounded-xl p-2 outline-none border-2 border-gray-300 bg-gray-100"/>
                     </div>
                     <div className="mt-10 flex items-center justify-center">
-                        <button type="submit" className="bg-blue-950 text-orange-500 hover:bg-blue-900 font-bold rounded-xl py-2 px-10">Save</button>
+                     <NavLink to = "/profile">  <button type="submit" className="bg-blue-950 text-orange-500 hover:bg-blue-900 font-bold rounded-xl py-2 px-10">Save</button></NavLink> 
                     </div>
 
                 </form>

@@ -1,5 +1,6 @@
 import {React} from "react";
 import { useForm } from "react-hook-form";
+import { NavLink } from "react-router-dom";
 
 function Login(){
     const {register, handleSubmit,formState:{errors}} = useForm();
@@ -32,7 +33,7 @@ function Login(){
                 <a href="#">forgot password?</a>
             </div>
             <div className="flex items-center justify-center mt-4">
-              <button type="submit"  className="bg-blue-950 hover:bg-blue-900 transtion-all duration-500 text-orange-500 py-2 px-10 w-full  rounded-xl font-bold">Sign in</button>
+             <NavLink to="/homepg"> <button type="submit"  className="bg-blue-950 hover:bg-blue-900 transtion-all duration-500 text-orange-500 py-2 px-10 w-full  rounded-xl font-bold">Sign in</button></NavLink>
             </div>
             <div className="flex items-center justify-center mt-4 font-semibold">
                 <p>Dont have an account? <a href="#">Sign up</a> </p>

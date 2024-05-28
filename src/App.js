@@ -1,5 +1,6 @@
 import React from "react";
-import JobMatchingAlgorithm from "./Algorithm/JobMatchingAlgorithm";
+import LandingPage from "./components/LandingPage";
+
 
 
 
@@ -7,7 +8,7 @@ function App()
 {
   return(
   <div className= "Apply">
-   <JobMatchingAlgorithm userRequirements="experienced in java and python"/>
+   <LandingPage/>
    
        </div>
 

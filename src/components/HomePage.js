@@ -2,7 +2,8 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import { FaBell,FaUserCircle } from "react-icons/fa";
 
-function Content(){
+
+function Homepage(){
     return(
         <div className="flex">
         <Sidebar/>
@@ -21,7 +22,7 @@ function Content(){
             <div className="mt-8 gap-4 flex items-center">
                 <div className="ml-3 mt-1 rounded-xl h-screen w-full border-2 bg-gray-100 ">
                     <h3 className="mt-3 text-center text-blue-950 font-semibold">Available jobs</h3>
-
+                        
                 </div>
     
             </div>
@@ -29,4 +30,4 @@ function Content(){
        </div>
     );
 }
-export default Content;
+export default Homepage;
