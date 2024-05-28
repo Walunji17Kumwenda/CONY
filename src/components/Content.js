@@ -28,7 +28,7 @@ function Content(){
         </div>
 
         <footer className="">
-        <div className="mt-8 flex text-blue-950 justify-center justify-around bg-gray-400">
+        <div className="mt-8 flex text-blue-950 justify-around bg-gray-400">
             <div>
             <h2>&copy;2024 CONY </h2>
             <h2 className="font-bold ">Legal</h2>

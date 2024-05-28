@@ -15,6 +15,7 @@ import NewjobModal from "./components/Job/NewjobModal";
 import CompanyNotifications from "./components/CompanyNotifications";
 import JobMatchingAlgorithm from "./components/Algorithm/JobMatchingAlgorithm";
 import Qualification from "./components/Qualification";
+import Homepage from "./Homepage";
 
 
 const router = createBrowserRouter([
@@ -70,6 +71,7 @@ const router = createBrowserRouter([
     ,
     {
         path: "/homepg",
+        element: <Homepage/>,
     }
     ,
     {
