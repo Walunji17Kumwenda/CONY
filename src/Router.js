@@ -8,7 +8,7 @@ import LandingPage from "./components/LandingPage";
 import { createBrowserRouter } from "react-router-dom";
 import CompanySidebar from "./components/CompanySidebar";
 import CompanyProfile from "./components/CompanyProfile";
-import Homepage from "./components/Homepage";
+import Homepage from "./components/Homepage.js";
 import About from "./components/about";
 import Notificationspage from "./components/Notificationspage";
 import Settings from "./components/settings";
