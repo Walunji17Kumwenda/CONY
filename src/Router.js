@@ -1,14 +1,14 @@
-import Content from "./components/Content";
 
-import FeedbackForm from "./components/FeedbackForm";
 import React from "react";
+import Content from "./components/Content";
+import FeedbackForm from "./components/FeedbackForm";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import LandingPage from "./components/LandingPage";
+import Homepage from  "./components/Homepage";
 import { createBrowserRouter } from "react-router-dom";
 import CompanySidebar from "./components/CompanySidebar";
 import CompanyProfile from "./components/CompanyProfile";
-import Homepage from "./components/Homepage.js";
 import About from "./components/about";
 import Notificationspage from "./components/Notificationspage";
 import Settings from "./components/settings";
